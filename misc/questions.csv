@@ -1,0 +1,101 @@
+id,text,dimension,polarity
+e01,Would you go for a run or cycle right now?,energy,positive
+e02,Could you walk for an hour without stopping?,energy,positive
+e03,Would you cook a full meal from scratch tonight?,energy,positive
+e04,Do you feel well-rested right now?,energy,positive
+e05,Would you go outside just to feel the air?,energy,positive
+e06,Could you take the stairs without thinking about it?,energy,positive
+e07,Do you feel like your body is working with you today?,energy,positive
+e08,Would you stretch or do yoga right now?,energy,positive
+e09,Could you dance if a good song came on?,energy,positive
+e10,Would you eat something nourishing right now?,energy,positive
+e11,Could you push through something physically hard right now?,energy,positive
+e12,Would you go swimming if there was a pool nearby?,energy,positive
+e13,Do you feel light on your feet today?,energy,positive
+e14,Could you wake up early tomorrow without dreading it?,energy,positive
+e15,Do you feel tension or heaviness in your body right now?,energy,negative
+e16,Do you feel sluggish and slow today?,energy,negative
+e17,Do you feel exhausted before the day is done?,energy,negative
+e18,Do you feel restless like you cannot sit still?,energy,negative
+e19,Does your body feel like it is dragging you down?,energy,negative
+e20,Do you feel like staying in bed and not moving?,energy,negative
+s01,Would you call someone just to hear their voice?,social,positive
+s02,Could you sit with a friend in comfortable silence?,social,positive
+s03,Would you tell someone close how you really feel?,social,positive
+s04,Do you feel like people understand you today?,social,positive
+s05,Could you ask for help from someone right now?,social,positive
+s06,Would you want company right now?,social,positive
+s07,Do you feel connected to the people in your life?,social,positive
+s08,Would you reach out to someone you have not spoken to lately?,social,positive
+s09,Do you feel like you matter to someone today?,social,positive
+s10,Could you be vulnerable with someone you trust right now?,social,positive
+s11,Would you forgive someone who hurt you recently?,social,positive
+s12,Do you feel like sharing good news with someone?,social,positive
+s13,Would you make plans to see a friend this week?,social,positive
+s14,Do you feel like you belong somewhere right now?,social,positive
+s15,Would you let someone look after you a little?,social,positive
+s16,Do you feel alone even when people are around?,social,negative
+s17,Would you rather be completely alone right now?,social,negative
+s18,Do you feel like no one quite gets what you are going through?,social,negative
+s19,Does being around people feel draining right now?,social,negative
+s20,Do you feel invisible or overlooked today?,social,negative
+m01,Could you focus on a complex task right now?,mental,positive
+m02,Would you start a new creative project today?,mental,positive
+m03,Do you feel like your mind is clear right now?,mental,positive
+m04,Could you make an important decision without overthinking?,mental,positive
+m05,Would you read something challenging for pleasure?,mental,positive
+m06,Do you feel like you can solve problems today?,mental,positive
+m07,Could you plan your week out clearly right now?,mental,positive
+m08,Do you feel mentally sharp today?,mental,positive
+m09,Would you enjoy a puzzle or brain teaser right now?,mental,positive
+m10,Do you feel creative right now?,mental,positive
+m11,Could you learn something new in the next hour?,mental,positive
+m12,Do you feel like your ideas are flowing freely?,mental,positive
+m13,Could you write something meaningful right now?,mental,positive
+m14,Would you work on something that requires patience?,mental,positive
+m15,Could you concentrate without your mind wandering?,mental,positive
+m16,Do you find your thoughts scattered or hard to follow?,mental,negative
+m17,Do you feel mentally foggy or slow today?,mental,negative
+m18,Is your mind racing and hard to quiet right now?,mental,negative
+m19,Do you find it hard to start or finish things today?,mental,negative
+m20,Do you feel overwhelmed by how much is in your head?,mental,negative
+o01,Do you feel at ease with how you are feeling right now?,emotional,positive
+o02,Could you sit alone with your thoughts comfortably?,emotional,positive
+o03,Do you feel hopeful about something in your life?,emotional,positive
+o04,Could you accept something you cannot change today?,emotional,positive
+o05,Do you feel grateful for something right now?,emotional,positive
+o06,Could you be kind to yourself about a mistake?,emotional,positive
+o07,Do you feel settled and calm inside right now?,emotional,positive
+o08,Could you let go of something that has been weighing on you?,emotional,positive
+o09,Do you feel emotionally open and available right now?,emotional,positive
+o10,Could you receive good news without feeling suspicious of it?,emotional,positive
+o11,Do you feel a quiet sense of peace right now?,emotional,positive
+o12,Would you let yourself feel something difficult if it came up?,emotional,positive
+o13,Could you find one small thing to appreciate today?,emotional,positive
+o14,Is something sitting heavy on your mind right now?,emotional,negative
+o15,Do you feel let down by something or someone today?,emotional,negative
+o16,Do you feel like you are carrying something unspoken?,emotional,negative
+o17,Is there something from today you are still replaying?,emotional,negative
+o18,Do you feel a quiet heaviness you cannot name?,emotional,negative
+o19,Do you feel like your emotions are under pressure?,emotional,negative
+o20,Do you feel like something is about to break or give way?,emotional,negative
+p01,Do you feel like today had any meaning?,purpose,positive
+p02,Would you say your life feels purposeful lately?,purpose,positive
+p03,Do you feel like you are moving in the right direction?,purpose,positive
+p04,Could you trust your own instincts right now?,purpose,positive
+p05,Do you feel ready to take on tomorrow?,purpose,positive
+p06,Do you feel like your efforts are paying off?,purpose,positive
+p07,Could you give yourself credit for something small today?,purpose,positive
+p08,Do you feel like you are growing as a person?,purpose,positive
+p09,Could you face something you have been avoiding?,purpose,positive
+p10,Do you feel like things will be okay eventually?,purpose,positive
+p11,Would you choose to be present in this moment right now?,purpose,positive
+p12,Do you feel like you are where you are supposed to be?,purpose,positive
+p13,Could you be fully honest with yourself right now?,purpose,positive
+p14,Do you feel a sense of momentum in your life?,purpose,positive
+p15,Could you imagine a future you are genuinely excited about?,purpose,positive
+p16,Do you feel lost or without direction right now?,purpose,negative
+p17,Do you feel like you are just going through the motions?,purpose,negative
+p18,Does your effort feel pointless or invisible right now?,purpose,negative
+p19,Do you feel like you are falling behind in some way?,purpose,negative
+p20,Do you feel disconnected from what matters to you?,purpose,negative

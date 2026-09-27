@@ -1,0 +1,35 @@
+# Temporary files, build output, and installed dependencies
+**/node_modules/
+**/vendor/
+**/build/
+**/dist/
+**/.gradle/
+**/.cxx/
+**/Pods/
+**/DerivedData/
+**/.cache/
+**/coverage/
+**/tmp/
+**/temp/
+*.tmp
+*.temp
+*.log
+*.swp
+.DS_Store
+
+# Local media library
+/Music/
+# Local credentials and nested repository metadata
+.env
+.env.*
+!.env.example
+*.jks
+*.p12
+*.pfx
+**/.git/
+# Machine-specific editor and agent configuration
+/.claude/
+/.codex/
+/.vscode/
+# Generated Android JavaScript bundle
+/app/WellnessLamp/android/app/src/main/assets/

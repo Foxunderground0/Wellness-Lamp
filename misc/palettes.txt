@@ -1,0 +1,236 @@
+================================================================================
+PRESET PALETTES
+================================================================================
+
+Palette Name: Golden Hour
+Catch Phrase: Bathed in the day's last gold
+Description: That last stretch of daylight, warm and unhurried
+Colors: #ff9a56, #ffbd70, #ffd488, #ffaa66, #ff8c55, #ffc87a, #ffdb99, #ffa070
+
+--------------------------------------------------------------------------------
+
+Palette Name: Deep Night
+Catch Phrase: Still and vast as the night sky
+Description: When the world goes quiet and thoughts go deep
+Colors: #1a1a4e, #2d2d7e, #3d3580, #1e2a5a, #2a1a5e, #363680, #222255, #3a3a70
+
+--------------------------------------------------------------------------------
+
+Palette Name: Ocean Drift
+Catch Phrase: Carried softly by the current
+Description: Salt air and the rhythm of gentle tides
+Colors: #48c9b0, #52d9c8, #76e4d8, #3ab5a0, #5ec9d4, #7ed8e8, #a0e8e0, #60ccd0
+
+--------------------------------------------------------------------------------
+
+Palette Name: Rose Garden
+Catch Phrase: Soft petals in still morning air
+Description: Tender and quietly hopeful
+Colors: #f4a0b5, #f7c0cb, #f9d4dc, #f0909a, #f5b0c0, #fad4d4, #fce8e8, #f2a8b8
+
+--------------------------------------------------------------------------------
+
+Palette Name: Storm Calm
+Catch Phrase: Holding still through the grey
+Description: The quiet before or the peace after
+Colors: #7890a8, #8898b8, #9aaac8, #607088, #788898, #aab8c8, #c0ccd8, #8898a8
+
+--------------------------------------------------------------------------------
+
+Palette Name: Forest Floor
+Catch Phrase: Roots deep, breathing slow
+Description: Grounded, unhurried, earthy
+Colors: #5d8a60, #4a7050, #78a468, #3d6040, #6a9458, #8ab878, #a0c890, #607850
+
+--------------------------------------------------------------------------------
+
+Palette Name: Candy Dream
+Catch Phrase: Sweet colours, lighter than air
+Description: Bubbly, light, and full of colour
+Colors: #ff8fd8, #ffa0c8, #c88fff, #ffb0e8, #a0b8ff, #ffd0f0, #d0a0ff, #ffb8d8
+
+--------------------------------------------------------------------------------
+
+Palette Name: Ember Glow
+Catch Phrase: Warmth that lingers long after
+Description: Burning softly in the dark
+Colors: #d44020, #e86030, #f08048, #c03818, #e05028, #f0a060, #f8c080, #e07040
+
+================================================================================
+FEELING PALETTES (Mood Archetypes)
+================================================================================
+
+Palette Name: Alive and Reaching
+Catch Phrase: The kind of day that moves on its own
+Description: These warm, luminous oranges and golds are the visual signature of your energy today — expansive, generous, hard to contain. The brightness in these tones matches the way you're moving through the world right now: forward and open.
+Colors: #FF6200, #FFD700, #FF2800, #FF9900, #FFE500, #FF4400, #FFB800, #FF3A00
+
+--------------------------------------------------------------------------------
+
+Palette Name: Warm and Wide Open
+Catch Phrase: Arms out to whatever comes next
+Description: Amber and warm gold carry the feeling of space — of being at ease with who you are and what today holds. These colours reflect a kind of openness that isn't loud, just steady.
+Colors: #FFB300, #FF5500, #FFE000, #FF4400, #FFC800, #FF7700, #FFD800, #FF6800
+
+--------------------------------------------------------------------------------
+
+Palette Name: Grateful Golden Hour
+Catch Phrase: Full in a way that needs no explanation
+Description: Deep amber and fire gold are the colours of gratitude — not the performative kind, but the quiet kind you feel when things align.
+Colors: #FFD000, #FF4400, #FFE900, #FF8800, #FFB800, #FF2200, #FFC500, #FF6600
+
+--------------------------------------------------------------------------------
+
+Palette Name: Morning Resolve
+Catch Phrase: Facing what needs to be faced
+Description: Vivid coral and hot pink reflect a certain kind of clarity — the kind that comes just before you start. These colours carry the feeling of early readiness.
+Colors: #FF4433, #FF0066, #FF7722, #FF0044, #FF5500, #FF3399, #FF6600, #FF00BB
+
+--------------------------------------------------------------------------------
+
+Palette Name: Purposeful Drive
+Catch Phrase: Moving with intention today
+Description: Electric cyan and deep ocean blue carry the weight of purpose. These hues sit at the intersection of clarity and drive — cool enough to think straight, bold enough to act.
+Colors: #00DDFF, #0055EE, #00FFEE, #0033CC, #00BBDD, #0077FF, #00EEDD, #0044DD
+
+--------------------------------------------------------------------------------
+
+Palette Name: Forest Floor Peace
+Catch Phrase: Roots deep, breathing slow
+Description: Vivid greens and electric limes carry the feeling of being grounded — not flat or stuck, but rooted like something living.
+Colors: #00EE44, #88DD00, #00FF55, #AAEE00, #00CC33, #99CC00, #00FF44, #77BB00
+
+--------------------------------------------------------------------------------
+
+Palette Name: Deep Night Calm
+Catch Phrase: When the world goes quiet and thoughts go deep
+Description: Deep indigo and electric violet hold a particular kind of peace — the peace of being awake when everything else is still.
+Colors: #5500FF, #2200DD, #7700FF, #0033BB, #6600EE, #3311CC, #8800FF, #0044CC
+
+--------------------------------------------------------------------------------
+
+Palette Name: Tender and Low Key
+Catch Phrase: Soft around the edges today
+Description: Vivid mint and sky blue hold the feeling of being cared for without needing to perform. These colours are low-key in the best way.
+Colors: #00CC77, #0088EE, #00EE99, #00AAFF, #00BB66, #0099DD, #00FF88, #0077CC
+
+--------------------------------------------------------------------------------
+
+Palette Name: Healing Quiet
+Catch Phrase: Something is mending that you cannot see
+Description: Vivid rose and electric violet together carry the feeling of recovery — not dramatic healing, but the slow kind that happens when you give yourself space.
+Colors: #FF0077, #9900FF, #FF0055, #7700EE, #FF0088, #00DDAA, #EE0066, #8800FF
+
+--------------------------------------------------------------------------------
+
+Palette Name: Sunday Afternoon Ease
+Catch Phrase: The hours that belong to you
+Description: Vivid purple and electric rose are the colours of an unhurried afternoon — when nothing is urgent and the light comes in sideways.
+Colors: #BB00FF, #FF0066, #9900EE, #0099FF, #CC00FF, #FF0044, #AA00DD, #0088EE
+
+--------------------------------------------------------------------------------
+
+Palette Name: Quiet Inner Distance
+Catch Phrase: Something stays just out of reach
+Description: These deep blues and indigos mirror the feeling of being slightly apart from everything — present but not quite reachable.
+Colors: #0044CC, #4400EE, #0066DD, #5500FF, #0033BB, #3300DD, #0055EE, #6600EE
+
+--------------------------------------------------------------------------------
+
+Palette Name: Missing Someone Softly
+Catch Phrase: The space where someone used to be
+Description: Vivid violet and electric magenta carry a particular kind of longing — tender rather than sharp, the colour of someone on the edge of your thoughts.
+Colors: #8800FF, #FF00AA, #6600EE, #0033FF, #AA00FF, #EE00BB, #7700DD, #0055EE
+
+--------------------------------------------------------------------------------
+
+Palette Name: Bittersweet and Still
+Catch Phrase: Missing something you cannot name
+Description: Vivid rose and electric purple are the colours of feeling two things at once — the warmth of what was, and the ache of what isn't.
+Colors: #FF0044, #9900FF, #FF2266, #6600EE, #FF0033, #FFD700, #EE0055, #7700FF
+
+--------------------------------------------------------------------------------
+
+Palette Name: Nostalgic Haze
+Catch Phrase: Faded gold and old photographs
+Description: Deep amber and vivid magenta are the colours of memory — the warmth of what was, contrasted against the ache of distance.
+Colors: #FF8800, #FF0088, #FFAA00, #EE0077, #FF7700, #FF0066, #FFB800, #DD0055
+
+--------------------------------------------------------------------------------
+
+Palette Name: Introspective Blue
+Catch Phrase: Going somewhere deep and quiet inside
+Description: Electric blues and indigos carry the weight of genuine introspection — not worry, but depth.
+Colors: #0055FF, #5500EE, #0033EE, #4400DD, #0044CC, #3300CC, #0066FF, #6600FF
+
+--------------------------------------------------------------------------------
+
+Palette Name: Heavy and Far Away
+Catch Phrase: The weight settles in uninvited
+Description: Deep indigo and navy hold the particular heaviness of a day when everything costs more than it should.
+Colors: #2200AA, #003388, #3300CC, #004499, #2200BB, #005577, #330099, #003366
+
+--------------------------------------------------------------------------------
+
+Palette Name: Gently Drifting Along
+Catch Phrase: Not quite here, not quite there
+Description: Electric cyan and flowing blues are the colours of a mood that isn't anchored anywhere — present but not committed, moving without urgency.
+Colors: #00EEFF, #0066EE, #00DDDD, #0055DD, #00CCEE, #0077FF, #00BBCC, #0044CC
+
+--------------------------------------------------------------------------------
+
+Palette Name: Sharp and Buzzing
+Catch Phrase: Too much going on inside right now
+Description: The extreme contrast between electric cyan and electric yellow reflects a mind running faster than the rest of you can keep up.
+Colors: #00FFEE, #FFEE00, #00EEDD, #FFCC00, #00FFCC, #FFD700, #00DDCC, #FFB800
+
+--------------------------------------------------------------------------------
+
+Palette Name: Creative Fire
+Catch Phrase: The deep purple of ideas burning clean
+Description: Electric purple, cyan, and magenta together carry the feeling of creative intensity — when ideas feel urgent and the outside world becomes irrelevant.
+Colors: #BB00FF, #00FFDD, #FF00AA, #8800EE, #00DDFF, #FF0088, #CC00FF, #00CCFF
+
+--------------------------------------------------------------------------------
+
+Palette Name: Anxious Edge
+Catch Phrase: Too fast and cannot find the brake
+Description: The tension between electric lime and hot magenta reflects an inner conflict — high energy without clear direction.
+Colors: #99FF00, #FF0088, #BBEE00, #EE0077, #AAFF00, #FF0066, #88EE00, #DD0055
+
+--------------------------------------------------------------------------------
+
+Palette Name: Restless Ember Energy
+Catch Phrase: Moving fast to outrun the thinking
+Description: Fire red and electric gold carry the feeling of energy that has nowhere to land — the heat of someone who wants to do something but hasn't found the right thing yet.
+Colors: #FF2200, #FFD700, #FF4400, #FFBB00, #EE1100, #FFA800, #FF3300, #FFE000
+
+--------------------------------------------------------------------------------
+
+Palette Name: Scattered Energy
+Catch Phrase: Everything at once and none of it clearly
+Description: Red, electric blue, and yellow in tension reflect a state of genuine scatter — plenty of energy, no clear channel for it.
+Colors: #FF0000, #0055FF, #FFE000, #EE0000, #0044EE, #FFCC00, #FF1100, #0066FF
+
+--------------------------------------------------------------------------------
+
+Palette Name: Social Warmth
+Catch Phrase: Warmth that comes from being with people
+Description: Hot coral and vivid orange reflect the specific glow of someone who is well-connected today — to their people, their warmth, their care.
+Colors: #FF0055, #FF7700, #FF0077, #FF8800, #EE0044, #FF6600, #FF0066, #FF9900
+
+--------------------------------------------------------------------------------
+
+Palette Name: Cozy Shelter
+Catch Phrase: Warm inside, quiet outside
+Description: Deep amber and fire red are the colours of shelter — the feeling of being in the right place with the right people.
+Colors: #FF8C00, #CC3300, #FFAA00, #BB2200, #FF9900, #DD4400, #FFB800, #EE5500
+
+--------------------------------------------------------------------------------
+
+Palette Name: Quietly In Between
+Catch Phrase: Neither here nor pulling away
+Description: Vivid teal-cyan and deep purple carry the feeling of being genuinely in between — not much of anything in particular, which is its own kind of state.
+Colors: #0099CC, #6600AA, #00AABB, #7700BB, #0088BB, #5500AA, #00BBCC, #8800CC
+
+================================================================================
