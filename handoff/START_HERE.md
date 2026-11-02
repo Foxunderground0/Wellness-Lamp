@@ -78,6 +78,24 @@ The coding agent must keep and reuse these, wrapping rather than rewriting:
 - It is NOT the behaviour authority — it simulates hardware and contains prototype-only scaffolding. Behaviour comes from `SCREENS_AND_FLOWS.md` and `DATA_AND_RULES.md`.
 - <!-- TODO: freeze the prototype before handoff — pick final variants for toggle, slider, card surface, nav; strip the variations panel, motion lab, and rejected Library explorations -->
 
+## Code and assets included in this handoff
+
+Give the developer only the reference material that saves real recreation work:
+
+1. **Frozen HTML prototype** in `prototype/` — visual and interaction reference, not production React Native code.
+2. **Orb and background-wash source** in `animation-reference/`.
+   - Prefer an isolated React Native Skia implementation if one is available; label it `production-ready`.
+   - If the supplied code uses browser Canvas, DOM, CSS, or web React, label it `algorithmic-reference`. The developer must port its colour math, timing, layers, and shader behaviour to React Native Skia rather than copy it directly.
+   - Include a 60 fps reference recording and still images showing important animation states.
+3. **Final icons, fonts, and textures** in `assets/`, with clear filenames. Include source SVGs where available.
+4. **Machine-readable design tokens**, if produced, in `assets/tokens.json`. `DESIGN_SYSTEM.md` remains the human-readable explanation.
+
+Do not generate or supply a second set of ordinary React screen/components from the HTML. The coding agent should build those directly in the target architecture from the prototype and specifications; duplicate generated components would create another conflicting source.
+
+Existing BLE, mood-engine, question, archetype, preset, and colour utility code already lives in the app repository. Do not copy it into this handoff. `MIGRATION.md` tells the coding agent exactly which existing files to retain and how they fit into the redesign.
+
+`MOTION.md` must inventory every file in `animation-reference/`, label its compatibility (`production-ready` or `algorithmic-reference`), list its inputs/outputs, and explain where it is used. `DESIGN_SYSTEM.md` must inventory every supplied icon/font/texture. This prevents the developer from having to guess what any provided file is for.
+
 ## Document priority
 
 When documents conflict, higher wins:
