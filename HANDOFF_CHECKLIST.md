@@ -1,6 +1,6 @@
 # Handoff documentation checklist
 
-Everything the dev (working with AI agents) needs to implement the redesign. Eight docs plus three asset folders. Write them in this order — later docs reference earlier ones.
+Everything the dev (working with AI agents) needs to implement the redesign. Eight docs plus the reference-material folders below. Write them in this order — later docs reference earlier ones.
 
 ```text
 handoff/
@@ -14,6 +14,10 @@ handoff/
   PROPOSED_STRUCTURE.md
   prototype/            (frozen approved HTML, exploration variants removed)
   animation-reference/  (orb + wash code, videos, screenshots)
+  design-system/
+    component-gallery.html
+    tokens.json
+    screenshots/
   assets/               (icons, fonts, textures)
 ```
 
@@ -82,17 +86,35 @@ End state: ...
 - [ ] Type scale: both families (serif + sans), sizes and weights per role (title, body, label, nav)
 - [ ] Spacing, radii, card dimensions
 - [ ] Each component with its chosen final variant: button/pill, toggle switch, slider, brightness dial, question scale, sound player, preset tile, tabs, nav bar, snackbar, bottom sheet
-- [ ] States per component: default, pressed, selected, disabled, unavailable
+- [ ] States per component: default, pressed, selected, disabled, loading, unavailable, and edited where relevant
 - [ ] Which icons/assets you're supplying, with filenames
+- [ ] For every component, record:
+  - React Native component name
+  - Screens where it is used
+  - Anatomy (the pieces inside it)
+  - Variants and states
+  - Exact dimensions, padding, gap, font, colour and radius tokens
+  - Interaction behaviour
+  - Link/anchor to its example in `design-system/component-gallery.html`
+- [ ] Provide `design-system/tokens.json` with the same colour, type, spacing, radius, motion and component-size values in machine-readable form. `DESIGN_SYSTEM.md` explains their meaning; the JSON prevents transcription mistakes.
+- [ ] Provide `design-system/component-gallery.html` as the equivalent of a Figma component page:
+  - Show only the final selected design for each component
+  - Show every relevant state side by side
+  - Include buttons, icon buttons, cards, sliders, switches, brightness dial, question scale, player, scene rows/tiles, tabs, navigation, snackbar, sheets and unavailable rows
+  - Remove all rejected alternatives and variation controls
+- [ ] Add reference screenshots of the component gallery under `design-system/screenshots/`
 
 ## 5. MOTION.md — animations
 
 - [ ] Per animation: name, where it occurs, trigger, duration, easing, what visually changes, how it ends, loops or not, reduced-motion variant if the prototype has one
 - [ ] Cover: check-in transitions, "reading your answers" sequence, result reveal, Set-the-scene peak (Light leak / Light bloom — name the locked choices), background wash in/out, snackbar, sheet open/close, Library window morph
-- [ ] Orb + wash: hand over your React reference code, labelled honestly:
+- [ ] Orb + wash: hand over isolated source code in `animation-reference/`, labelled honestly:
   - `production-ready` only if it's actual React Native Skia code
-  - otherwise `algorithmic reference` — agent ports the math (OKLab/OKLCH blending, layer order, speeds, seeds) to Skia, not the browser APIs
-- [ ] Include palette input format, speed input, static-mode rendering, and a 60 fps screen recording of each animation for visual comparison
+  - otherwise `algorithmic-reference` — agent ports the math (OKLab/OKLCH blending, layer order, speeds, seeds) to Skia, not browser Canvas, DOM or CSS APIs
+- [ ] Inventory every supplied animation file: filename, compatibility label, dependencies, inputs/outputs, and screens that use it
+- [ ] Document palette, size, speed, brightness, active/static mode and phase inputs
+- [ ] Document colour interpolation, layer/blend order, timing, seeds/randomness, lifecycle (start/pause/resume/reset) and expected performance
+- [ ] Include static reference frames plus a 60 fps screen recording of each animation for visual comparison
 
 ## 6. CONTENT.md — final copy and data (short)
 
@@ -148,6 +170,7 @@ src/
 ## Not needed (deliberately)
 
 - Figma
+- Generated web React code for ordinary screens/components — the coding agent builds these directly in React Native from the gallery, tokens, prototype and specs
 - Accessibility spec
 - Test plans / acceptance test docs
 - Document metadata headers
@@ -157,6 +180,9 @@ src/
 ## Before handing off
 
 - [ ] Freeze the prototype: pick the final variant for every undecided component (toggle, slider, card surface, nav — the prototype panel lists these as "not yet decided"), strip the variations panel, motion lab, and rejected Library explorations
+- [ ] Build the final component gallery and verify its values match `tokens.json` and DESIGN_SYSTEM.md
+- [ ] Label every animation source file `production-ready` or `algorithmic-reference`; include recordings and still frames
+- [ ] Supply original SVG icons, font files and textures with clear filenames
 - [ ] Confirm the sound catalog against the real SD card contents
 - [ ] Confirm the four scent names
 - [ ] Mark remaining open questions in START_HERE instead of leaving them implicit
