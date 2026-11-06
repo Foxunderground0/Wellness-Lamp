@@ -1,0 +1,177 @@
+[
+ {
+  "name": "tab-library",
+  "size": 24,
+  "use": "TabBar: Library"
+ },
+ {
+  "name": "tab-home",
+  "size": 24,
+  "use": "TabBar: Home"
+ },
+ {
+  "name": "tab-remote",
+  "size": 24,
+  "use": "TabBar: Remote"
+ },
+ {
+  "name": "me",
+  "size": 18,
+  "use": "MeButton"
+ },
+ {
+  "name": "sound",
+  "size": 16,
+  "use": "HomeSceneDetails (16); scene tiles (13)"
+ },
+ {
+  "name": "scent",
+  "size": 16,
+  "use": "HomeSceneDetails"
+ },
+ {
+  "name": "scent-tile",
+  "size": 13,
+  "use": "Library scene tiles and rows"
+ },
+ {
+  "name": "checkin-back",
+  "size": 22,
+  "use": "CheckInTopBar: ‹ previous question"
+ },
+ {
+  "name": "checkin-close",
+  "size": 22,
+  "use": "CheckInTopBar: × close"
+ },
+ {
+  "name": "more",
+  "size": 20,
+  "use": "Saved and check-in rows: ⋯"
+ },
+ {
+  "name": "more-scent",
+  "size": 18,
+  "use": "Scent rows (Remote): ⋯"
+ },
+ {
+  "name": "chevron-left",
+  "size": 18,
+  "use": "Previous month; previous scene in the scene sheet"
+ },
+ {
+  "name": "chevron-right",
+  "size": 16,
+  "use": "Next month; next scene; card heading chevrons; Sound row in the scene editor"
+ },
+ {
+  "name": "chevron-down",
+  "size": 18,
+  "use": "Month picker"
+ },
+ {
+  "name": "sheet-close",
+  "size": 20,
+  "use": "Scene sheet (Library): ×"
+ },
+ {
+  "name": "play-small",
+  "size": 14,
+  "use": "TrackRow play (Sound chooser); scene sheet sound line"
+ },
+ {
+  "name": "pause-small",
+  "size": 14,
+  "use": "TrackRow while playing"
+ },
+ {
+  "name": "pencil",
+  "size": 20,
+  "use": "Rename (Saved row actions, scent row actions)"
+ },
+ {
+  "name": "trash",
+  "size": 20,
+  "use": "Delete (Saved row actions)"
+ },
+ {
+  "name": "sound-chooser-close",
+  "size": 20,
+  "use": "Sound chooser: × (header and search clear)"
+ },
+ {
+  "name": "search",
+  "size": 18,
+  "use": "SoundSearchField"
+ },
+ {
+  "name": "brightness",
+  "size": 16,
+  "use": "BrightnessRing: the sun in the opening"
+ },
+ {
+  "name": "cycle",
+  "size": 18,
+  "use": "CycleKey (turns while cycling)"
+ },
+ {
+  "name": "previous-track",
+  "size": 22,
+  "use": "Track controls: ◀◀"
+ },
+ {
+  "name": "next-track",
+  "size": 22,
+  "use": "Track controls: ▶▶"
+ },
+ {
+  "name": "play",
+  "size": 22,
+  "use": "RoundIconButton: play"
+ },
+ {
+  "name": "pause",
+  "size": 22,
+  "use": "RoundIconButton: pause"
+ },
+ {
+  "name": "volume",
+  "size": 22,
+  "use": "Volume row (replaced by the value while dragging)"
+ },
+ {
+  "name": "undo",
+  "size": 20,
+  "use": "Undo / Redo bar: Undo"
+ },
+ {
+  "name": "redo",
+  "size": 20,
+  "use": "Undo / Redo bar: Redo"
+ },
+ {
+  "name": "back",
+  "size": 22,
+  "use": "SubScreenHeader: ‹ back to the Remote"
+ },
+ {
+  "name": "check",
+  "size": 20,
+  "use": "Rename ✓; the current scent's tick"
+ },
+ {
+  "name": "close",
+  "size": 20,
+  "use": "Rename ✕"
+ },
+ {
+  "name": "use-original",
+  "size": 20,
+  "use": "Scent row actions: Use original name"
+ },
+ {
+  "name": "pencil-name",
+  "size": 14,
+  "use": "After your own scene's name on the Remote (text-muted)"
+ }
+]

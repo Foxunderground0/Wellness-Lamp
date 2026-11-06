@@ -1,0 +1,40 @@
+// palettes.data.ts: the 33 palettes as data: the 8 presets' and the 25 moods' colours, as in the app's presetThemes.ts and moodArchetypes.ts.
+// The 8 colours of every preset palette and every mood (feeling) palette, in lamp order.
+
+export type NamedPalette = { name: string; group: 'preset' | 'feeling'; colours: string[] };
+
+export const PALETTES: NamedPalette[] = [
+  { name: 'Golden Hour', group: 'preset', colours: ['#FF9A56', '#FFBD70', '#FFD488', '#FFAA66', '#FF8C55', '#FFC87A', '#FFDB99', '#FFA070'] },
+  { name: 'Deep Night', group: 'preset', colours: ['#1A1A4E', '#2D2D7E', '#3D3580', '#1E2A5A', '#2A1A5E', '#363680', '#222255', '#3A3A70'] },
+  { name: 'Ocean Drift', group: 'preset', colours: ['#48C9B0', '#52D9C8', '#76E4D8', '#3AB5A0', '#5EC9D4', '#7ED8E8', '#A0E8E0', '#60CCD0'] },
+  { name: 'Rose Garden', group: 'preset', colours: ['#F4A0B5', '#F7C0CB', '#F9D4DC', '#F0909A', '#F5B0C0', '#FAD4D4', '#FCE8E8', '#F2A8B8'] },
+  { name: 'Storm Calm', group: 'preset', colours: ['#7890A8', '#8898B8', '#9AAAC8', '#607088', '#788898', '#AAB8C8', '#C0CCD8', '#8898A8'] },
+  { name: 'Forest Floor', group: 'preset', colours: ['#5D8A60', '#4A7050', '#78A468', '#3D6040', '#6A9458', '#8AB878', '#A0C890', '#607850'] },
+  { name: 'Candy Dream', group: 'preset', colours: ['#FF8FD8', '#FFA0C8', '#C88FFF', '#FFB0E8', '#A0B8FF', '#FFD0F0', '#D0A0FF', '#FFB8D8'] },
+  { name: 'Ember Glow', group: 'preset', colours: ['#D44020', '#E86030', '#F08048', '#C03818', '#E05028', '#F0A060', '#F8C080', '#E07040'] },
+  { name: 'Alive and Reaching', group: 'feeling', colours: ['#FF6200', '#FFD700', '#FF2800', '#FF9900', '#FFE500', '#FF4400', '#FFB800', '#FF3A00'] },
+  { name: 'Warm and Wide Open', group: 'feeling', colours: ['#FFB300', '#FF5500', '#FFE000', '#FF4400', '#FFC800', '#FF7700', '#FFD800', '#FF6800'] },
+  { name: 'Grateful Golden Hour', group: 'feeling', colours: ['#FFD000', '#FF4400', '#FFE900', '#FF8800', '#FFB800', '#FF2200', '#FFC500', '#FF6600'] },
+  { name: 'Morning Resolve', group: 'feeling', colours: ['#FF4433', '#FF0066', '#FF7722', '#FF0044', '#FF5500', '#FF3399', '#FF6600', '#FF00BB'] },
+  { name: 'Purposeful Drive', group: 'feeling', colours: ['#00DDFF', '#0055EE', '#00FFEE', '#0033CC', '#00BBDD', '#0077FF', '#00EEDD', '#0044DD'] },
+  { name: 'Forest Floor Peace', group: 'feeling', colours: ['#00EE44', '#88DD00', '#00FF55', '#AAEE00', '#00CC33', '#99CC00', '#00FF44', '#77BB00'] },
+  { name: 'Deep Night Calm', group: 'feeling', colours: ['#5500FF', '#2200DD', '#7700FF', '#0033BB', '#6600EE', '#3311CC', '#8800FF', '#0044CC'] },
+  { name: 'Tender and Low Key', group: 'feeling', colours: ['#00CC77', '#0088EE', '#00EE99', '#00AAFF', '#00BB66', '#0099DD', '#00FF88', '#0077CC'] },
+  { name: 'Healing Quiet', group: 'feeling', colours: ['#FF0077', '#9900FF', '#FF0055', '#7700EE', '#FF0088', '#00DDAA', '#EE0066', '#8800FF'] },
+  { name: 'Sunday Afternoon Ease', group: 'feeling', colours: ['#BB00FF', '#FF0066', '#9900EE', '#0099FF', '#CC00FF', '#FF0044', '#AA00DD', '#0088EE'] },
+  { name: 'Quiet Inner Distance', group: 'feeling', colours: ['#0044CC', '#4400EE', '#0066DD', '#5500FF', '#0033BB', '#3300DD', '#0055EE', '#6600EE'] },
+  { name: 'Missing Someone Softly', group: 'feeling', colours: ['#8800FF', '#FF00AA', '#6600EE', '#0033FF', '#AA00FF', '#EE00BB', '#7700DD', '#0055EE'] },
+  { name: 'Bittersweet and Still', group: 'feeling', colours: ['#FF0044', '#9900FF', '#FF2266', '#6600EE', '#FF0033', '#FFD700', '#EE0055', '#7700FF'] },
+  { name: 'Nostalgic Haze', group: 'feeling', colours: ['#FF8800', '#FF0088', '#FFAA00', '#EE0077', '#FF7700', '#FF0066', '#FFB800', '#DD0055'] },
+  { name: 'Introspective Blue', group: 'feeling', colours: ['#0055FF', '#5500EE', '#0033EE', '#4400DD', '#0044CC', '#3300CC', '#0066FF', '#6600FF'] },
+  { name: 'Heavy and Far Away', group: 'feeling', colours: ['#2200AA', '#003388', '#3300CC', '#004499', '#2200BB', '#005577', '#330099', '#003366'] },
+  { name: 'Gently Drifting Along', group: 'feeling', colours: ['#00EEFF', '#0066EE', '#00DDDD', '#0055DD', '#00CCEE', '#0077FF', '#00BBCC', '#0044CC'] },
+  { name: 'Sharp and Buzzing', group: 'feeling', colours: ['#00FFEE', '#FFEE00', '#00EEDD', '#FFCC00', '#00FFCC', '#FFD700', '#00DDCC', '#FFB800'] },
+  { name: 'Creative Fire', group: 'feeling', colours: ['#BB00FF', '#00FFDD', '#FF00AA', '#8800EE', '#00DDFF', '#FF0088', '#CC00FF', '#00CCFF'] },
+  { name: 'Anxious Edge', group: 'feeling', colours: ['#99FF00', '#FF0088', '#BBEE00', '#EE0077', '#AAFF00', '#FF0066', '#88EE00', '#DD0055'] },
+  { name: 'Restless Ember Energy', group: 'feeling', colours: ['#FF2200', '#FFD700', '#FF4400', '#FFBB00', '#EE1100', '#FFA800', '#FF3300', '#FFE000'] },
+  { name: 'Scattered Energy', group: 'feeling', colours: ['#FF0000', '#0055FF', '#FFE000', '#EE0000', '#0044EE', '#FFCC00', '#FF1100', '#0066FF'] },
+  { name: 'Social Warmth', group: 'feeling', colours: ['#FF0055', '#FF7700', '#FF0077', '#FF8800', '#EE0044', '#FF6600', '#FF0066', '#FF9900'] },
+  { name: 'Cozy Shelter', group: 'feeling', colours: ['#FF8C00', '#CC3300', '#FFAA00', '#BB2200', '#FF9900', '#DD4400', '#FFB800', '#EE5500'] },
+  { name: 'Quietly In Between', group: 'feeling', colours: ['#0099CC', '#6600AA', '#00AABB', '#7700BB', '#0088BB', '#5500AA', '#00BBCC', '#8800CC'] },
+];
